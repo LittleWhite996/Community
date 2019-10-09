@@ -1,8 +1,11 @@
 package com.ty.expei.dto;
 
+import org.springframework.context.annotation.Bean;
+
+
 public class GitHubUser {
-    private long id;
     private String name;
+    private Long id;
     private String bio;
 
     public long getId() {
